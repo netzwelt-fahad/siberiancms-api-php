@@ -5,13 +5,13 @@
     $pushTest = false;
     $backofficeTest = true;
 
-    require "./lib/Api.php";
-    require "./lib/Application.php";
-    require "./lib/Request.php";
-    require "./lib/Response.php";
-    require "./lib/User.php";
-    require "./lib/Push.php";
-    require "./lib/Backoffice.php";
+    require "./src/Siberian/Api.php";
+    require "./src/Siberian/Application.php";
+    require "./src/Siberian/Request.php";
+    require "./src/Siberian/Response.php";
+    require "./src/Siberian/User.php";
+    require "./src/Siberian/Push.php";
+    require "./src/Siberian/Backoffice.php";
 
     // API init
     require "./tests/init.php";

@@ -1,0 +1,21 @@
+{
+    "name": "netzwelt/modified-siberiancms-api",
+    "description": "Made the original library composer ready.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahad Sadiq",
+            "email": "fahad.sadiq@vtnetzwelt.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Siberian": "src/"
+        }
+    }
+}
